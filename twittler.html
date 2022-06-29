@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="utf-8" />
+    <title>twittler</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+  </head>
+  <body>
+    <div class="container">
+      <header id="header">
+        <span id="logo">twittler<span>
+        <input type="search" placeholder="검색">
+        <span>홈</span>
+        <span>프로필</span>
+        <span>쪽지</span>
+        <span>팔로우 추천</span>
+      
+      </header>
+
+    <main id="main">
+      <section id="left">
+        <section id="regist">
+          
+              <label>Username<input type="text" id= "usernameInput"></label>
+           
+            <label>Message<textarea id="messageInput"></textarea></label>
+            
+         
+          <button id="tweetButton">Tweet!</button>
+        </section>
+      
+      <section id="post">
+        <button id="randomButton"><img src="https://img.icons8.com/material/24/000000/update-left-rotation.png" width="16">check new tweets</button>
+
+        <!-- Tweet lists -->
+        <section id="tweetlist" class="white"></section>
+      </section>
+    </section>
+  
+    <aside id="right">
+      <section id="my">
+        <p>
+          내 트윗 <span>23</span><br>
+          <span> 6분 전: 똑같은 것에서도 사람에 따라 그 얻는 바가..</span>
+        </p>
+      </section>
+      <section id="follow">   
+        <span>팔로잉</span>
+        <span>200</span>
+        <span>팔로워</span>
+        <span>160</span>
+      </section>
+      <section id="trend">
+       <p>
+         <span>실시간 트렌드</span><br>
+        <ul>
+         <li>Top100 K-Pop</li>
+         <li>Netflix Top10 Drama</li>
+         <li>Boxoffice June Top10</li>
+         <li>Musinsa Top10 Clothes</li>
+         <li>Seoul Top10 Restaurant</li>
+        </ul>
+      </p>
+      </section>
+    </aside>
+  </main>
+</div>
+    <script src="script.js"></script>
+  </body>
+</html>
+

@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Dongle:wght@300&family=Jua&display=swap');
+*{ box-sizing: border-box;
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Dongle', sans-serif;
+}
+.container{
+      width : 1200px;
+}
+/* 헤더*/
+#header{
+      display: flex;
+      font-size: 20px;
+      background-color:#2F8F9D;
+      color: white;
+      justify-content: flex-start;
+      margin : 0px 0px 10px 0px;
+      padding: 10px;
+      width: 100%;
+      height: 50px;
+      
+}
+
+#logo{
+    font-weight: bold;
+}
+
+/*메인 - 등록*/
+#main{
+  display: flex;
+  justify-content: row;
+}
+#left{
+  width: 50%;
+}
+
+#regist{
+      border: 1px solid;
+      display: flex;
+      align-items: center;
+      margin-bottom: 10px;
+      height: 150px;
+}
+#usernameInput{
+      margin: 5px;
+      width: 130px;
+}
+#messageInput{
+      margin: 5px;
+      width: 200px;
+}
+#tweetButton{
+        background-color: #3BACB6;
+        color: white;
+        border-style: none;
+        font-size: 20px;
+        padding: 5px;
+        font-weight:bold;
+        border-radius: 0.5em;
+        margin-left: 10px;
+}
+/* 메인 포스트*/
+#post{
+      border: 1px solid;
+      height: 450px;
+}
+
+#randomButton{
+      background-color: rgb(119, 197, 204);
+      color: white;
+      font-size: 20px;
+      padding: 2px;
+      font-weight: bolder;
+      border-radius: 0.5em;
+      margin:5px 5px;
+      border: none;
+      padding: 5px;
+}
+#tweetWrapper{
+    background-color: #CDF0EA;
+    width: 100%;
+    font-size: 20px;
+}
+.white{
+    border-bottom: 1px solid white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    height: 80px;
+
+}
+.tweet__username{
+      font-weight: bold;
+}
+/* 사이드바*/
+#right{
+    width: 50%;
+    margin-left: 10px;
+    background-color: #2F8F9D;
+    padding: 5px;
+    color: white;
+    font-size: 20px;
+}
+#my{
+  border-bottom: 1px solid white;
+}
+#follow{
+  border-bottom: 1px solid white;
+}
